@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemplo de Operadores Lógicos em JavaScript</title>
+</head>
+<body>
+
+<script>
+  // Exemplo de operadores lógicos
+  let idade = 25;
+  let salario = 3000;
+
+  // && (AND): Ambas as condições devem ser verdadeiras
+  let elegivelParaEmprestimo = idade >= 18 && salario > 2000;
+
+  // || (OR): Pelo menos uma das condições deve ser verdadeira
+  let podeComprarAlcool = idade >= 21 || salario > 5000;
+
+  // ! (NOT): Inverte o valor de uma expressão lógica
+  let menorDeIdade = !(idade >= 18);
+
+  // Exibindo os resultados no console
+  console.log("Elegível para empréstimo:", elegivelParaEmprestimo);
+  console.log("Pode comprar álcool:", podeComprarAlcool);
+  console.log("Menor de idade:", menorDeIdade);
+</script>
+
+</body>
+</html>
